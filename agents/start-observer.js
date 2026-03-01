@@ -106,9 +106,9 @@ function analyzeObservations() {
 
 ${latestObs}
 
-If you find 3+ occurrences of the same pattern, output the instinct file content in this format (do NOT use Write tool):
+IMPORTANT: Each instinct MUST be in a SEPARATE file. For EACH instinct found, output:
 
-FILE: [filename].md
+FILE: [unique-id].md
 ---
 id: [unique-id]
 trigger: "when [specific trigger]"
